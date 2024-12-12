@@ -55,10 +55,4 @@ JWT_EXPIRES=1d
 
 The server will be available at `http://localhost:8000`.
 
-## Contributing
-To contribute to this project:
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature-branch`).
-3. Make your changes and commit (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
+
