@@ -29,7 +29,7 @@
 To run the application locally, set the following environment variables in your `.env` file:
 
 ```bash
-DB_URL="mongodb+srv://shoumik123:shoumik123@cluster0.mafox.mongodb.net/gym_management"
+DB_URL="mongodb+srv://<username>:<password>@cluster0.mafox.mongodb.net/gym_management"
 PORT=8000
 JWT_SECRET=jwt_12345
 JWT_EXPIRES=1d
