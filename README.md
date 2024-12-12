@@ -28,22 +28,30 @@
 ## Environment Setup
 To run the application locally, set the following environment variables in your `.env` file:
 
-   DB_URL="mongodb+srv://shoumik123:shoumik123@cluster0.mafox.mongodb.net/gym_management"
-   PORT=8000
-   JWT_SECRET=jwt_12345
-   JWT_EXPIRES=1d
+```bash
+DB_URL="mongodb+srv://shoumik123:shoumik123@cluster0.mafox.mongodb.net/gym_management"
+PORT=8000
+JWT_SECRET=jwt_12345
+JWT_EXPIRES=1d
+```
 
 
 ## Installation
 1. **Clone the repository**:
+   ```bash
    git clone https://github.com/shoumik-123/Gym_management_system_ExpressJs.git
+   ```
 
 2. **Install dependencies**:
+   ```bash
    cd Gym_management_system_ExpressJs
    npm install
+   ```
 
 3. **Start the server**:
+   ```bash
    npm start
+   ```
 
 The server will be available at `http://localhost:8000`.
 
